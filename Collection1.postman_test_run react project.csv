@@ -1,0 +1,53 @@
+{
+	"id": "1b2c0511-6cfa-4760-99bd-4e6beb5ce984",
+	"name": "Collection1",
+	"timestamp": "2024-07-04T10:27:10.859Z",
+	"collection_id": "36734975-d67b06c9-e5d5-4760-82bf-771c838b2a41",
+	"folder_id": 0,
+	"environment_id": "36734975-e16676a7-d56f-481f-a5e2-f31075e58015",
+	"totalPass": 1,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2024-07-04T10:27:08.895Z",
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "bf1e5504-6cf6-4d78-aa18-178875388d1e",
+			"name": "login page",
+			"url": "http://localhost:8888/user",
+			"time": 8,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				8
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 8,
+	"collection": {
+		"requests": [
+			{
+				"id": "bf1e5504-6cf6-4d78-aa18-178875388d1e",
+				"method": "GET"
+			}
+		]
+	}
+}
